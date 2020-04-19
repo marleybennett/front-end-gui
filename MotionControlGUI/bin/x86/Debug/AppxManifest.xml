@@ -24,7 +24,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="MotionControlGUI.exe" EntryPoint="MotionControlGUI.App">
-      <uap:VisualElements DisplayName="MotionControlGUI" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="MotionControlGUI" BackgroundColor="transparent">
+      <uap:VisualElements DisplayName="MotorControlGUI" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="GUI to update and view parameters for motor." BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>

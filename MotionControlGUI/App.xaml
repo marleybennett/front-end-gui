@@ -10,6 +10,4 @@
             <Color x:Key="SystemAccentColor">#D3832B</Color>
         </ResourceDictionary>
     </Application.Resources>
-    
-    
 </Application>
