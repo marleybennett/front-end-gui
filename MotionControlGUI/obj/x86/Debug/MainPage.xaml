@@ -1,0 +1,167 @@
+﻿<Page
+    x:Class="MotionControlGUI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MotionControlGUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid Margin="5,5,5,50">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border
+            BorderThickness="2" BorderBrush="#D3832B"
+            Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" Grid.RowSpan="5"
+            />
+        <Border
+            BorderThickness="2" BorderBrush="#D3832B"
+            Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3"
+            />
+
+        <Border
+            BorderThickness="2" BorderBrush="#D3832B"
+            Grid.Column="3" Grid.ColumnSpan="4" Grid.Row="2" Grid.RowSpan="5"
+            />
+        <Border
+            BorderThickness="2" BorderBrush="#D3832B"
+            Grid.Column="3" Grid.ColumnSpan="4" Grid.Row="2"
+            />
+
+        <TextBlock Margin="76,30,0,30"
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"
+                Text="Motor Control GUI"
+                HorizontalAlignment="Center"                
+                Foreground='Black'
+                   Style="{StaticResource HeaderTextBlockStyle}" FontSize="72"
+                       />
+
+
+        <TextBlock x:ConnectionId='2' Margin="0,10,0,9"
+                   Text="PARAMETER VALUES"
+                   Style="{StaticResource SubheaderTextBlockStyle}"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   HorizontalAlignment="Center"                                                
+                   />
+        <TextBlock x:ConnectionId='3' Margin="0,10,0,10"
+                   Text="USER INPUT"
+                   Style="{StaticResource SubtitleTextBlockStyle}"
+                   Grid.Row="3"
+                   HorizontalAlignment="Center"                                                
+                   />
+
+        <TextBlock x:ConnectionId='4' Margin="0,10,0,10"
+                   Text="CURRENT VALUE"
+                   Style="{StaticResource SubtitleTextBlockStyle}"
+                   Grid.Row="3"
+                   Grid.Column="1"
+                   HorizontalAlignment="Center"                                                
+                   />
+
+        <TextBox x:ConnectionId='5' HorizontalAlignment="Center"  Margin="5,0,0,0"
+                VerticalAlignment="Center"
+                Grid.Row="4"
+                TextWrapping="Wrap" FontSize="36" 
+                                                  AcceptsReturn="False" PlaceholderText="Parameter1" 
+                         />
+        <TextBox x:ConnectionId='6' HorizontalAlignment="Center" 
+                VerticalAlignment="Center"
+                Grid.Row="5"
+                PlaceholderText="Parameter2" 
+                TextWrapping="Wrap" FontSize="36" 
+                                                  
+                 />
+
+        <TextBox x:ConnectionId='7' HorizontalAlignment="Center" 
+                VerticalAlignment="Center"
+                Grid.Row="6"                
+                PlaceholderText="Parameter3" 
+                TextWrapping="Wrap" FontSize="36" 
+                                                  
+                />
+
+        <TextBlock x:ConnectionId='8'
+                   Text="CurrentParam1"
+                   Style="{StaticResource SubheaderTextBlockStyle}"
+                   Grid.Row="4"
+                   Grid.Column="1"
+                   HorizontalAlignment="Center"                                                
+                   VerticalAlignment="Center"
+                   />
+
+        <TextBlock
+                   Text="CurrentParam2"
+                   Style="{StaticResource SubheaderTextBlockStyle}"
+                   Grid.Row="5"
+                   Grid.Column="1"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   />
+
+        <TextBlock x:ConnectionId='9'
+                   Text="CurrentParam3"
+                   Style="{StaticResource SubheaderTextBlockStyle}"
+                   Grid.Row="6"
+                   Grid.Column="1"
+                   HorizontalAlignment="Center"                                                
+                   VerticalAlignment="Center"
+                   />
+
+        <TextBlock x:ConnectionId='10' Margin="0,10,0,9"
+                   Text="MOTOR STATE"
+                   Style="{StaticResource SubheaderTextBlockStyle}"
+                   Grid.Row="2"
+                   Grid.Column="3"
+                   HorizontalAlignment="Center"                                                
+                   />
+
+        <TextBlock x:ConnectionId='11'
+                   Text="Encoder1"
+                   Style="{StaticResource SubheaderTextBlockStyle}"
+                   Grid.Row="4"
+                   Grid.Column="3"
+                   HorizontalAlignment="Center"                                                
+                   VerticalAlignment="Center"
+                   />
+
+        <TextBlock
+                   Text="Encoder2"
+                   Style="{StaticResource SubheaderTextBlockStyle}"
+                   Grid.Row="5"
+                   Grid.Column="3"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   />
+
+        <TextBlock x:ConnectionId='12'
+                   Text="Encoder3"
+                   Style="{StaticResource SubheaderTextBlockStyle}"
+                   Grid.Row="6"
+                   Grid.Column="3"
+                   HorizontalAlignment="Center"                                                
+                   VerticalAlignment="Center"
+                   />
+    </Grid>
+
+</Page>
+

@@ -1,0 +1,1 @@
+C:\Users\marle\source\repos\MotionControlGUI\MotionControlGUI\MotionControlGUI.csproj;x86
