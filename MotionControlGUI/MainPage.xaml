@@ -36,7 +36,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <!--Title Border-->
+            <!--Title Borders-->
             <Border Margin="5"
             BorderThickness="3" BorderBrush="Black"
             Grid.Column="0" Grid.ColumnSpan="7" Grid.Row="0" Grid.RowSpan="3"
@@ -77,7 +77,7 @@
                        />
 
 
-            <!--Border for Motor Data-->
+            <!--Borders for Motor Data-->
             <Border Margin="5"
             BorderThickness="2" BorderBrush="Black"
             Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="4" Grid.RowSpan="9"
@@ -128,7 +128,7 @@
             </TextBlock>
 
 
-            <!--Parameter Border-->
+            <!--Parameter Borders-->
             <Border Margin="5"
             BorderThickness="2" BorderBrush="Black"
             Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="4" Grid.RowSpan="9"
@@ -206,9 +206,7 @@
                     Grid.Row="10" Grid.Column="2"
                      TextChanged="TextBox_TextChanged" AcceptsReturn="False" PlaceholderText="Default: xx" />
 
-        
-           
-            
+         
             <!--Border for encoder data-->
             <Border Margin="5"
             BorderThickness="2" BorderBrush="Black"
@@ -258,7 +256,6 @@
                     <LineBreak/>
                     MORE INFO :)
             </TextBlock>
-
 
             <TextBlock Margin="15,15,0,0"
                 HorizontalAlignment="Stretch" VerticalAlignment="Top" 
